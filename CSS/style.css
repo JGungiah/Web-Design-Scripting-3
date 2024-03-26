@@ -1,30 +1,70 @@
-#myBox 
-{
-   width : 900px;
-   height : 500px;
-   background-color:rgb(63, 63, 63) ;
-   position: absolute ;
-   top: 100px ;
-   left : 200px ;
-   z-index :-5 ;
 
-}
 
-.myColor
 
-{
-    background-color: rgb(206, 207, 207);
-}
 
+
+ 
 #Circle 
 {
-    width : 50px;
-    height: 50px;
+    width : 100px;
+    height: 100px;
     border-radius: 50% ;
     position: absolute;
-    background-color: rgb(206, 207, 207) ;
+    background-color: rgb(214, 201, 16) ;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 20px;
     display: inline;
-    top: 400px;
-    left: 100px;
+    top: 180px;
+    left: 565px;
     
+}
+
+#Square 
+{
+    width:250px ;
+    height: 250px;
+    position: absolute;
+    background-color:rgb(111, 146, 212) ;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 20px;
+    display: inline;
+    top: 200px;
+    left: 300px ;
+    animation-name: Animation1 ;
+    animation-direction:reverse;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#Circle2
+{
+    width : 200px;
+    height: 200px;
+    border-radius: 50% ;
+    position: absolute;
+    background-color: rgb(217, 5, 5) ;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 20px;
+    display: inline;
+    top: 300px;
+    left: 500px;
+}
+
+#Box
+{
+ width: 500px;
+ height: 500px;
+ background-color: rgb(230, 230, 230);
+ display: inline;
+ 
+}
+
+@Keyframes Animation1
+{
+ 0% {background-color: blueviolet; top:100px ; left: 50px ; height: 50px ; height: 150px;}
+ 50%{background-color: coral; top:150px ; left: 20px ; height: 100px ; height: 250px;}
+ 100%{background-color: brown; top:200px ; left: 50px ; height: 150px ; height: 200px;}
 }
